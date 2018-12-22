@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1155797346994678}
+  m_IsPrefabParent: 1
+--- !u!1 &1155797346994678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4196301084299072}
+  - component: {fileID: 33409655399815194}
+  - component: {fileID: 65230226509507832}
+  - component: {fileID: 23672041852020232}
+  - component: {fileID: 114809655317448542}
+  m_Layer: 0
+  m_Name: BossCube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4196301084299072
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1155797346994678}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 363.9, y: 64.4, z: 121.9}
+  m_LocalScale: {x: 50, y: 50, z: 50}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23672041852020232
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1155797346994678}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 47e016fd183ed1246a3a7a05ca3ec0cd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33409655399815194
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1155797346994678}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &65230226509507832
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1155797346994678}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114809655317448542
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1155797346994678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb32bc89134dad14cb784e8c849d778e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QuestionAsk: {fileID: 1525613684408654, guid: f75812ccbc31ea74fb2dcbe6096ae237,
+    type: 2}
+  QuestionAsk2: {fileID: 1044376044236064, guid: b58eb055091831f47bb25592a4f1a163,
+    type: 2}
+  QuestionAsk3: {fileID: 1957047511729654, guid: bfcd0d1c986d3a64ab4c04aa69127381,
+    type: 2}
+  QuestionAsk4: {fileID: 1640533156747862, guid: 0a0e40909245c3d4e8cda90d0137eefa,
+    type: 2}
+  QuestionAsk5: {fileID: 1249715368621600, guid: dd8b4e36f4198f041956131ad364511a,
+    type: 2}
+  QuestionAsk6: {fileID: 1383752871264646, guid: 4fca2f2f5915cc74c895d952f47b950d,
+    type: 2}
+  QuestionAsk7: {fileID: 1583618522947074, guid: ef02dd79d5f930a4a9319e86e6733c8a,
+    type: 2}
+  QuestionAsk8: {fileID: 1948769480393360, guid: de40fd92cec5796408ef915cc013350d,
+    type: 2}
+  QuestionAsk9: {fileID: 1787524020376120, guid: 442e6ddc1adf3b74985442835f029348,
+    type: 2}
+  isBoss: 1
+  health: 3000
+  l2700: 1
+  l2400: 1
+  l2100: 1
+  l1800: 1
+  l1500: 1
+  l1200: 1
+  l900: 1
+  l600: 1
